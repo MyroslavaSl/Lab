@@ -1,0 +1,16 @@
+a = 0
+b = 1
+temp = 0
+c = int(input("Number"))
+print("Numbers until" + str(c) + " (including): ")
+print (0)
+while b <= c:
+    print(b)
+    temp = 0;
+    b = b + a;
+    a = temp;
+
+if b == c or c ==0:
+    print("The number is the Fibonacci number")
+else:
+    print ("The number is not the Fibonacci number")
